@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Primeiras regras CSS</title>
+		<title>Box Model</title>
 		<meta charset="utf-8">
 		<meta name="author" content="Fernando César">
 		<meta name="description" content="lista de documentos">
@@ -20,13 +20,26 @@
 				font-style: italic;
 				font-variant: small-caps;/* small-caps - coloca todo o texto em formato maúsiculo, porém, sem perder a característica das letras minúsculas */
 				color: #0f0;
+				background-color: yellow;
+				margin-left: 0px;
+				padding-left: 25px;
+				margin-top: 50px;
+				padding-top: 50px;
+				padding-bottom: 50px;
+				padding-right: 25px;
+				margin-bottom: 50px;
+				width: 190px;
+				height: 500px;
 			}
 
 			h2{
 				text-transform: uppercase;
 				font-family: Arial;
 				color: #12de5a;
-				background-color: #f85f47;
+				border-bottom-color: red;
+				border-bottom-style: dotted;
+				border-bottom-width: 10px;
+				padding: 25px;
 			}
 
 			p{
@@ -35,6 +48,7 @@
 				text-decoration: line-through;
 				text-indent: 20px;
 				text-transform: none;
+				margin-bottom: 20px;
 			}
 
 			.destaque{
