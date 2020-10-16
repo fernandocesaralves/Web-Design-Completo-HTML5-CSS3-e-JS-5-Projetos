@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: Arial, sans-serif;
+}
+
+/*****************************
+Cabeçalho */
+#container {
+	max-width: 1024px;
+	background-color: #081a24;
+	height: 50px;
+	margin: 85px auto;
+}
+
+#container .logo-topo {
+	float: left;
+	margin-left: 175px;
+}
+
+#container .menu-lateral {
+	float: right;
+	margin-right: 15px;
+}
+
+#container .menu-lateral ul li {
+	float: left;
+	list-style: none;
+	margin-right: 30px;
+}
+
+#container .menu-lateral ul a {
+	text-decoration: none;
+	color: #225266;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#container .menu-lateral ul a:hover {
+	color: #fff;
+}
+
+#container #capa img {
+	margin-top: 13px;
+}
+
+/****************************************
+Principal */
+main {
+	max-width: 840px;
+	margin: auto;
+}
+
+main #destaque {
+	text-align: center;
+	line-height: 2;
+	margin-top: 85px;
+}
+
+main #destaque h2 {
+	color: #000;
+	font-size: 40px;
+	margin-bottom: 0;
+}
+
+main #destaque p {
+	color: #696969;
+	text-align: center;
+	margin-top: 15px;
+}
+
+/**************************
+Imagens de destaque */
+main .destaque-img {
+	float: left;
+	margin-top: 80px;
+	margin-right: 30px;
+	margin-bottom: 90px;
+}
+
+main .destaque-img h4 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0;
+	color: #1c1c1c;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+
+main .destaque-img p {
+	text-align: center;
+	margin-top: 10px;
+	color: #A9A9A9;
+}
+
+main#second {
+	clear: both;
+	margin: auto;
+	max-width: 1024px;
+	box-sizing: border-box;
+}
+
+#second .sectionfd {
+	background: #013b53 url(../images/bg_detalhe.png) no-repeat right bottom;
+	max-width: 1024px;
+	height: 572px;
+	clear: both;
+	margin-bottom: 40px;
+}
+
+main#second .sectionfd .card h3 {
+	color: #fff;
+	font-size: 45px;
+	padding: 100px 100px 40px 100px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+main#second .card-int {
+	max-width: 500px;
+	color: #fff;
+	margin-left: 100px;
+	line-height: 1.5;
+}
+
+#contato h2,
+#contato p {
+	color: #013b53;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 28px;
+	margin: 0;
+}
+
+#mapa {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+footer {
+	height: 60px;
+	background-color: #001018;
+	text-align: center;
+	line-height: 60px;
+	color: #537893;
+	margin-bottom: 80px;
+}
+
+
