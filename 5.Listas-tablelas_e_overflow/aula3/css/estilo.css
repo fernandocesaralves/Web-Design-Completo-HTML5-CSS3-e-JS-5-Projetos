@@ -1,0 +1,26 @@
+div {
+	padding: 2%;
+	margin: 50px 2%;
+	border: 1px solid #000;
+	width: 20%;
+	height: 100px;
+	font-size: 18px;
+	font-family: sans-serif;
+	float: left;
+}
+
+.div1 {
+	overflow: visible;
+}
+
+.div2 {
+	overflow: hidden;
+}
+
+.div3 {
+	overflow: scroll;
+}
+
+.div4 {
+	overflow: auto;
+}
