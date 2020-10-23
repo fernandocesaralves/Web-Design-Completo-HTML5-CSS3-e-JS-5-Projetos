@@ -12,11 +12,20 @@
 	<body>
 		<h1>Exemplo de formulário</h1>
 
-		<form action="http://google.com/search" method="GET" target="_blank">
-			
-			<input type="text" name="q">
+		<form action="#" method="POST" class="formLogin">
+			<fieldset>
+				
+				<legend>Login</legend>
 
-			<input type="submit" value="OK">
+				<label for="user">Digite o seu usuário</label>
+				<input type="text" id="user" name="user" autofocus>
+
+				<label>Digite a senha</label>
+				<input type="password" id="pass" name="pass">
+
+				<input type="submit" value="Logar" class="btn">
+
+			</fieldset>
 
 		</form>
 	</body>
