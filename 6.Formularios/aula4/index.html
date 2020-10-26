@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Página de exemplo, estrutura básica</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Fernando César">
+		<meta name="description" content="lista de documentos">
+		<meta name="keywords" content="html5, tecnologia, webdesign">
+
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+	<body>
+		
+
+		<form action="#" method="POST" class="formLogin">
+			<fieldset>
+
+				<legend>Dados Pessoais</legend>
+
+				<label>Email</label>
+				<input type="email" required maxlength="3" placeholder="Digite um e-mail válido">
+				<br>
+				<label>Número de filhos</label>
+				<input type="number" min="0" max="1000" step="0.5">
+
+				<br>
+				<label>Nascimento</label>
+				<input type="date" min="2020-10-26" max="2138-01-30">
+
+				<br>
+
+				<p>Sexo</p>
+
+				<label>Masculino
+					<input type="radio" name="sexo" value="M">
+				</label>
+
+				<label>Feminino
+					<input type="radio" name="sexo" value="F">
+				</label>
+				<br>
+				<input type="hidden" name="expira" value="2018-12-30">
+				
+
+				<label>Estado</label>
+				<select>
+					<option value="0">Selecione</option>
+					<option value="SP">São Paulo</option>
+					<option value="RJ">Rio de Janeiro</option>
+					<option value="MG">Minas Gerais</option>
+				</select>
+			</fieldset>	
+
+			<fieldset>
+				
+				<legend>Área de interesse</legend>
+
+				<label><input type="checkbox" name="html" value="html">HTML</label>
+				<label><input type="checkbox" name="css" value="css">CSS</label>
+				<label><input type="checkbox" name="javascript" value="javascript">JavaScript</label>
+
+			</fieldset>
+
+			<fieldset>
+				
+				<legend>Mensagem</legend>
+				<textarea name="msg" cols="30" rows="10"></textarea>
+
+				<textarea name="contrato" cols="30" rows="10" readonly>Aqui entra o texto do contrato que precisa ser aceito
+				</textarea>
+				<label><input type="checkbox" checked>Li e aceito</label>
+
+				<textarea name="contrato" cols="30" rows="10" disabled>Aqui entra o texto do contrato que precisa ser aceito
+				</textarea>
+				<label><input type="checkbox">Li e aceito</label>
+
+				<input type="range" min="0" max="10" step=".2">
+				<input type="time"> 
+				<input type="color">
+
+				<select size="5" multiple>
+					<option>Opção 1</option>
+					<option>Opção 2</option>
+					<option>Opção 3</option>
+					<option>Opção 4</option>
+					<option>Opção 5</option>
+				</select>
+
+			</fieldset>
+
+				<br>
+				<input type="submit" value="mandar">
+				<input type="button" value="button">
+				<input type="reset" value="reset">
+
+
+		</form>
+
+	</body>
+</html>
