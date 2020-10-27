@@ -1,0 +1,10 @@
+#radius {
+	background: orange;
+	width: 200px;
+	height: 200px;
+	margin: 50px auto;
+
+	border-radius: 50px 100px / 100px 50px;
+
+	box-shadow: 30px 0 10px -20px black, 10px 10px 0 red, -5px -5px 0 10px blue;
+}
