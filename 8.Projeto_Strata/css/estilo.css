@@ -284,6 +284,32 @@ textarea {
     display: inline-block;
 }
 
+.main-footer {
+    position: fixed;
+    bottom: 0;
+    width: 35%;
+    left: 0;
+    padding: 0 54px 72px 0;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.main-footer li a {
+    color: inherit;
+}
+
+.ul-icons li a {
+    border-bottom: transparent;
+}
+
+
+.main-footer li {
+    list-style-type: none;
+    display: inline-block;
+    color: inherit;
+}
+
+
 /* Grid */
 .row{
     overflow: auto;
