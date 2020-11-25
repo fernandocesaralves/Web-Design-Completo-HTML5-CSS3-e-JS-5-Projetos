@@ -1,0 +1,23 @@
+div {
+	border: 3px solid red;
+	padding: 25px;
+	position: relative;
+	margin: 25px;
+}
+
+div:before {
+	content: "Texto before ";
+	background: #ccc;
+}
+
+div:after {
+	content: "";
+	background: red;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
