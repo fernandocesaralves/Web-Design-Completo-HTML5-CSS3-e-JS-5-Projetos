@@ -1,0 +1,36 @@
+html {
+	font-size: 32px;
+}
+
+body {
+	font: 16px sans-serif;
+}
+
+
+div {
+	border: 1px solid #000;
+	padding: 1em; /* 1em significa umva ez o tamanho da fonte */
+
+	width: 20em;
+	/* 320 / 16 */
+
+	margin: 6.25em auto;
+	/* font-size: 2em; */
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	margin: 0;
+	line-height: 1.5;
+	font-size: 1.25em;
+	/* 16 x 1.25 = 20px */
+	font-size: 1rem; /* o rem vai herdar o tamanho do html */
+}
+
+a {
+	font-size: 1.2em;
+	/* 24 / 20 = (1.2 = 24px) */
+}
