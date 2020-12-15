@@ -6,10 +6,27 @@
 		<meta name="author" content="Fernando César">
 		<meta name="description" content="lista de documentos">
 		<meta name="keywords" content="html5, tecnologia, webdesign">
+		<meta name="viewport" content="width=devic-width">
 
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	</head>
 	<body>
-		<h1>Estrutura básica</h1>
+		<h1>Picture</h1>
+
+		 <picture>
+            
+            <source media="(min-width: 480px)" 
+                    sizes="33vw" 
+                    srcset="rwd-images/1280.jpg 1280w, 
+                            rwd-images/960.jpg 960w, 
+                            rwd-images/480.jpg 480w" >
+            <source sizes="100vw" 
+                    srcset="rwd-images/822_mob.jpg 822w, 
+                            rwd-images/640_mob.jpg 640w, 
+                            rwd-images/320_mob.jpg 320w">
+            
+            <img src="rwd-images/1280.jpg" alt="texto alternativo">
+            
+        </picture>
 	</body>
 </html>
