@@ -83,7 +83,7 @@
 
 
  
- .flexbox:nth-child(10) div {
+.flexbox:nth-child(10) div {
      width: 100px;
      background: yellow;
      flex-basis: 140px;
@@ -91,7 +91,7 @@
      margin: 5px;
   }
 
-  .flexbox:nth-child(10) div:nth-child(2) {
+.flexbox:nth-child(10) div:nth-child(2) {
     flex-shrink: 4;
  }
  .flexbox:nth-child(10) div:nth-child(4) {
@@ -99,3 +99,45 @@
     /* grow, shrink, basis  */
     flex: 1 0 100px;
  }
+
+.flexbox:nth-child(11) div:nth-child(2) {
+    order: 3;
+}
+
+.flexbox:nth-child(11) div:nth-child(4) {
+    order: 2;
+}
+
+.flexbox:nth-child(11) div:nth-child(3) {
+    order: 4;
+}
+
+.flexbox:nth-child(12) {
+    align-items: flex-start;
+}
+
+.flexbox:nth-child(12) div:nth-child(2) {
+    align-items: flex-start;
+    align-self: flex-end;
+}
+
+.flexbox:nth-child(12) div:nth-child(3) {
+    align-items: flex-start;
+    align-self: center;
+}
+
+.flexbox:nth-child(12) div:nth-child(1) {
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.flexbox:nth-child(13) {
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 500px;
+}
+
+.flexbox:nth-child(13) div {
+    flex-basis: 60px;
+}
