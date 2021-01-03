@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#externa {
+    background: yellow;
+    width: 80vw;
+    height: 80vh;
+}
+
+#interna {
+    width: 90vw;
+    height: 80%;
+    background-color: orange;
+}
