@@ -1,35 +1,20 @@
 @keyframes slide {
-    0% {
-        transform: translateY(0);
-    }
-    22% {
+    0%, 22%, 100% {
         transform: translateY(0);
     }
 
-    25% {
-        transform: translateY(-50vh);
-    }
-    47% {
+    25%, 47% {
         transform: translateY(-50vh);
     }
 
-    50% {
-        transform: translateY(-100vh);
-    }
-    72% {
+    50%, 72% {
         transform: translateY(-100vh);
     }
 
-    75% {
-        transform: translateY(-150vh);
-    }
-    97% {
+    75%, 97% {
         transform: translateY(-150vh);
     }
 
-    100%{
-        transform: translateY(0);
-    }
 }
 
 
